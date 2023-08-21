@@ -1,0 +1,30 @@
+.main {
+  height: 100vh;
+  background-image: url("../../images/wecomebg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main h1 {
+    font-size: 120%;
+    color: aqua;
+}
+
+/* .main .body {
+    position:relative
+} */
+
+.btn-accent {
+    position:fixed; 
+     bottom: 10px;
+    right: 160px; 
+    align-content: center;
+    margin-top: 20px;
+}
+
+.body {
+    padding: 20px;
+}
+
