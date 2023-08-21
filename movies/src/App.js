@@ -15,13 +15,13 @@ function App() {
       {/* <Home />
       <SideBar />  */}
 
-const App = () => {
+{/* const App = () => {
   return (
     <div>
       <Navbar />
     </div>
   )
-}
+} */}
 
     </div>
   );
