@@ -9,11 +9,19 @@ import SideBar from './Navigation/SideBar/SideBar';
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
+      <NavBar />
 
-      <Welcome />
+      {/* <Welcome />
       {/* <Home />
-      <SideBar /> */}
+      <SideBar />  */}
+
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
+}
 
     </div>
   );
