@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 
 import "./Welcome.css"
 
@@ -13,7 +15,9 @@ function Welcome() {
         <h1>Moview</h1>
         <div className='body'>
 
-            <button className="btn btn-accent">Next </button>   {/* <FontAwesomeIcon icon={faCircleArrowRight} /> */}
+         <button className="btn btn-accent"><Link to=''> Next</Link> </button>   
+         
+                 {/* <FontAwesomeIcon icon={faCircleArrowRight} /> */}
         </div>
         </div>
     </div>
