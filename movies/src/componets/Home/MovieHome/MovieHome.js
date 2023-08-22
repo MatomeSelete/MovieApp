@@ -1,8 +1,8 @@
 import React from 'react'
 
-import "./Home.css"
+import "./MovieHome.css"
 
-function Home() {
+function MovieHome() {
   return (
     <div>
       Home
@@ -10,4 +10,4 @@ function Home() {
   )
 }
 
-export default Home
+export default MovieHome

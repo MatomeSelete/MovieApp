@@ -12,7 +12,6 @@ function Welcome() {
         <div className='container main'>
         <h1>Moview</h1>
         <div className='body'>
-            {/* <img className='welcomebg' src={Welcomebg} alt='wecome background'/> */}
 
             <button className="btn btn-accent">Next </button>   {/* <FontAwesomeIcon icon={faCircleArrowRight} /> */}
         </div>

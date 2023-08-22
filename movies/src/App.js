@@ -3,31 +3,27 @@ import "./App.css";
 
 // import { Home, NavBar, Notification} from "./components";
 
-import Welcome from "./componets/Welcome/Welcome";
-import Home from "./componets/Home/Home";
-import NavBar from "./Navigation/NavBar/NavBar";
-import SideBar from "./Navigation/SideBar/SideBar";
+import {Home, Welcome } from "./componets";
+import {MovieHome, Movies, TVshows } from "../src/componets/Home";
+import NavBar from "./componets/Navigation/NavBar/NavBar";
+// import SideBar from "./Navigation/SideBar/SideBar";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
-
-      {/* 
-      {/* <Home />
-      <SideBar />  */}
+     
 
       <BrowserRouter>
         <NavBar />
-        <SideBar />
+        {/* <SideBar /> */}
         <Routes>
-          <Route path="" element={<Home />}> </Route>
+          <Route path="" element={ <Welcome />}> </Route>
 
-          <Route path="/friends" element={ <Welcome /> }> </Route>
-
-          {/* <Route path="groups" element={<Groups />}></Route> */}
-
-          {/* <Route path="notification" element={<Notification />}></Route> */}
+          <Route path="" element={ <Home /> }> 
+          <Route path="/moviehome" element={<MovieHome />}> </Route>
+          <Route path="/Movies" element={<Movies />}> </Route>
+          <Route path="/TVshows" element={<TVshows />}> </Route>
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>
