@@ -1,5 +1,5 @@
-import NavBar from '../Navigation/NavBar/NavBar';
-import SideBar from '../Navigation/SideBar/SideBar';
+import NavBar from './NavBar/NavBar';
+import SideBar from './SideBar/SideBar';
 
 export default {
   NavBar,
